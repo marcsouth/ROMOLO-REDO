@@ -179,6 +179,68 @@ font-weight: bold;
   max-width: 300px;
   margin-left: 200px;
 }
+
+.contactcontainer{
+  padding:20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contactcontainer > p{
+margin-bottom: 20px;
+font-size: 20px;
+}
+
+.contactcontainer p > a{
+  color: black;
+  text-decoration: underline;
+}
+
+.presswrapper{
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.presscontainer{
+  display: flex;
+  padding-block: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.presscontainer > img{
+  max-width: 350px;
+}
+
+.presstext{
+  margin-left: 50px;
+}
+
+.presstext p > a{
+  color: black;
+  text-decoration: underline;
+}
+
+
+.artgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
 
@@ -211,6 +273,24 @@ font-weight: bold;
       .exhbitionscontainer{
         max-width: 600px;
       }
+      .recentcontainer{
+        flex-direction: column;
+      }
+      .recentcontainer > ul{
+        margin-left: 0;
+      }
+      .presscontainer{
+        flex-direction: column;
+      }
+      .presstext{
+      margin: 0;
+      text-align: center;
+      margin-top: 20px;
+      }
+      .artgrid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
 
   };
 
