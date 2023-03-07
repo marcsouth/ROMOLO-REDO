@@ -63,7 +63,7 @@ export default function Navigation() {
 
 
     <div className={`${showMenu ? 'mobileview' : 'mobileviewnone'}`}>
-    <ul>
+    <ul className='mobilelist'>
         <li>
           <NavLink to="/artworks">ARTWORKS</NavLink>
         </li>

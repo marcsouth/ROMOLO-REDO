@@ -1,5 +1,4 @@
 export const ArtworkData = [
-
 {
     id:1,
     src:"../Artwork photos/photo1.jpg",
@@ -280,7 +279,217 @@ export const ArtworkData = [
     src:"../Artwork photos/photo55.png",
     title:"Passage sculpture in bronze"  
 },
+];
 
 
+export const Veniceimages = [
+{
+    id:1,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo1.jpg"
+},
+{
+    id:2,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo2.png"
+},
+{
+    id:3,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo3.jpg"
+},
+{
+    id:4,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo4.jpg"
+},
+{
+    id:5,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo5.jpg"
+},
+{
+    id:6,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo6.jpg"
+},
+{
+    id:7,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo7.jpg"
+},
+{
+    id:8,
+    src:"../ROMOLO RECENT PICTURES/venice art bienniaL/photo8.jpg"
+},
+];
+
+
+export const Giganticimages = [
+{
+id:1,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo1.jpg"
+},
+{
+id:2,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo2.jpg"
+},
+{
+id:3,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo3.jpg"
+},
+{
+ id:4,
+ src:"../ROMOLO RECENT PICTURES/gigantic NY/photo4.jpg"
+},
+{
+id:5,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo5.jpg"
+},
+{
+id:6,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo6.jpg"
+},
+{
+id:7,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo7.jpg"
+},
+{
+id:8,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo8.jpg"
+},
+{
+ id:9,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo9.jpg"
+ },
+ {
+ id:10,
+ src:"../ROMOLO RECENT PICTURES/gigantic NY/photo10.jpg"
+ },
+ {
+ id:11,
+ src:"../ROMOLO RECENT PICTURES/gigantic NY/photo11.jpg"
+},
+{
+id:12,
+src:"../ROMOLO RECENT PICTURES/gigantic NY/photo12.jpg"
+},
+];
+
+
+export const Idealimages =[
+{
+id:1,
+src:"../ROMOLO RECENT PICTURES/ideal spaces/photo1.png"
+ },
+ {
+id:2,
+src:"../ROMOLO RECENT PICTURES/ideal spaces/photo2.jpg"
+ },
+ {
+ id:3,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo3.jpg"
+ },
+ {
+ id:4,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo4.jpg"
+ },
+ {
+ id:5,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo5.jpg"
+ },
+ {
+ id:6,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo6.jpg"
+ },
+ {
+ id:7,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo7.jpg"
+ },
+ {
+ id:7,
+ src:"../ROMOLO RECENT PICTURES/ideal spaces/photo7.jpg"
+ },
+];
+
+
+export const Venice2images= [
+    {
+        id:1,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo1.jpg"
+    },
+    {
+        id:2,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo2.jpg"
+    },
+    {
+        id:3,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo3.jpg"
+    },
+    {
+        id:4,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo4.jpg"
+    },
+    {
+        id:5,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo5.jpg"
+    },
+    {
+        id:6,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo6.jpg"
+    },
+    {
+        id:7,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo7.jpg"
+    },
+    {
+        id:8,
+        src:"../ROMOLO RECENT PICTURES/venice2/photo8.jpg"
+    },
+];
+
+
+export const Bertaimages = [
+    {
+        id:1,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo1.jpg"
+    },
+    {
+        id:2,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo2.jpg"
+    },
+    {
+        id:3,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo3.jpg"
+    },
+    {
+        id:4,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo4.jpg"
+    },
+    {
+        id:5,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo5.jpg"
+    },
+    {
+        id:6,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo6.jpg"
+    },
+    {
+        id:7,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo7.jpg"
+    },
+    {
+        id:8,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo8.jpg"
+    },
+    {
+        id:9,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo9.jpg"
+    },
+    {
+        id:10,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo10.jpg"
+    },
+    {
+        id:11,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo11.jpg"
+    },
+    {
+        id:12,
+        src:"../ROMOLO RECENT PICTURES/berta walker gallery/photo12.jpg"
+    },
 ];
 
