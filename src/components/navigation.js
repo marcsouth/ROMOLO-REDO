@@ -12,6 +12,8 @@ export default function Navigation() {
     setShowMenu(!showMenu);
   };
 
+  document.body.style.overflow = showMenu ? "hidden" : "auto";
+
   return (
 
     <>
@@ -37,15 +39,15 @@ export default function Navigation() {
         </li>
      </ul>
     <div className="navsocials">
-        <a href="">
+        <a href="https://www.instagram.com/romolodeldeo/">
             <AiOutlineInstagram  size={20}/>
         </a>
 
-        <a href="">
+        <a href="https://twitter.com/scultore">
              <AiOutlineTwitter size={20} />
         </a>
 
-        <a href="">
+        <a href="https://www.facebook.com/romolodeldeostudio/">
              <AiFillFacebook size={20} />
         </a>
     </div>
