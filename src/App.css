@@ -1,14 +1,19 @@
 @font-face {
-  font-family: helveticaNeue;
-  src: url("../public/Helvetica\ Neue\ Regular.otf") format("opentype");
+  font-family: roboto;
+  src: url("../public/Roboto-Light.ttf") format("opentype");
 }
+@font-face {
+  font-family: roboto b;
+  src: url("../public/Roboto-Regular.ttf") format("opentype");
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: "helveticaNeue";
+  font-family: "roboto";
 }
 body {
    background-color: #ffffff;
@@ -19,7 +24,7 @@ body {
   border-bottom: 1.5px solid #666666;
 }
 html{
-  font-family: "helveticaNeue";
+  font-family: "roboto";
   font-size: 16px;
   max-width: 100%;
 }
@@ -106,7 +111,7 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .mobilesocials > a{
   color: #666666;
@@ -118,6 +123,7 @@ display: none;
 }
 .biocontainer > p{
   margin-bottom: 20px;
+  line-height: 30px;
 }
 .biocontainer{
   max-width: 400px;
@@ -126,13 +132,14 @@ h2{
   margin-block: 20px;
 }
 li > b{
-font-weight: bold;
+font-family:"roboto b" ;
 }
 .exhbitionscontainer{
   max-width: 400px;
 }
 .exhbitionscontainer ul > li{
   margin-bottom: 10px;
+  line-height: 30px;
 }
 .recentcontainer a > img{
   max-width: 350px;
@@ -207,6 +214,7 @@ font-size: 20px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
   cursor: pointer;
 }
 .modal{
